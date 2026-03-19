@@ -33,7 +33,7 @@ def load_data() -> List[Dict[str, Any]]:
         return []
 
 
-def save_data( List[Dict[str, Any]]) -> None:
+def save_data(data: List[Dict[str, Any]]) -> None:
     """Сохранить данные транзакций в JSON файл.
 
     Args:
